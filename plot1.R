@@ -1,0 +1,5 @@
+source('functions.R')
+readData()
+png("plot1.png") 
+plot1()
+dev.off()
